@@ -1,7 +1,7 @@
 // Class for Project
 
 // Create Player class (receives name and role from form submission)
-class Player {
+export class Player {
     #hp
     #ap
     #role;
@@ -73,15 +73,14 @@ class Player {
 }
 
 //  Create the enemy class (include enemy attributes, enemy type, and the enemy methods)
-class Enemy {
+export class Enemy {
     #hp
     #enemyActionPoints= 5;
+    #img
 
     constructor(type, hp,) {
         this.type= type;
         this.#hp= hp;
-        this.#enemyActionPoints= enemyActionPoints;
-
     }
 
     get enemyType() {
@@ -94,4 +93,11 @@ class Enemy {
 
     }
     
+    set enemyImg(image) {
+        this.#img = image;
+    }
+
+    get enemyImg() {
+        return this.#img;
+    }
 }
