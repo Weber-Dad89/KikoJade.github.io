@@ -13,6 +13,7 @@ Asssignment Notes and Tasks to Completion
     •   continue to expand on character attributes
     •   
 
+* Scratch PHP, will worry another time *
 -   Route player selection options to separate page (PHP script)
     •   save details for use on character map 
     •   PHP saves user data on the sever in order to keep logic and data secure
@@ -20,14 +21,15 @@ Asssignment Notes and Tasks to Completion
     •   Create a 'data endpoint file' that gets the players data (get_player_data.php)
     •   use JSON in get_player_data php
 
-- Update the game page HTML
+* Scratch PHP, will worry another time *
+-   Update the game page HTML
     •   implement FETCH API to get data from the php endpoint file
     •   assign variables from PHP to JS objects in order to play game
     •   create and implement game logic using JS with characterScript
     •   
 
-- 
-    •   
+-   update final page with player information
+    •   use URL searchParams
     •   
     •   
     •   
