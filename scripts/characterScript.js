@@ -22,7 +22,7 @@ class Player {
     }
 
     defend(enemy) {
-
+        
     }
 
     flee(enemy) {
@@ -85,7 +85,7 @@ class Enemy {
     }
 
     get enemyType() {
-        this.type= this.type;
+        this.type= type;
     }
 
     set enemyType(type) {
